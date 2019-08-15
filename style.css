@@ -1,0 +1,225 @@
+
+html, body {
+    background-color: rgb(24, 0, 51);
+}
+
+/* The hero image */ 
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+    overflow: auto;
+    margin: auto;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+    border-image-outset: 2px;
+}
+
+.navbar {
+    background-color: rgb(24, 0, 51) !important;
+    position: relative;
+}
+
+#nav-links {
+    font-family: Verdana;
+    font: bold;
+    padding-left: 10px;
+}
+
+.h1, .p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#btn {
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Yellow */
+.warning {
+    border-color: lightgreen;
+    color: black;
+}
+  
+#resume {
+    background: beige;
+    height: 400px;
+    align-content: center;
+    position: relative;
+    background-image: url(resume.jpg);
+    background-size: cover;
+    align-content: center;
+
+}
+
+#jumbo-head-resume {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    padding-bottom: 30px;
+}
+
+#jumbo-content-resume {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    background-size: contain;
+}
+
+#resume-icon {
+    position: absolute;
+    bottom: 55px;
+    right:50%;
+    left:50;
+}
+
+#portfolio {
+    background: beige;
+    height: 850px;
+    align-content: center;
+    background-image: url(portfolio.jpg);
+    background-size: cover;
+    align-content: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #portfolio {
+      height: 1400px;
+    }
+  }
+
+#jumbo-head-portfolio {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding-bottom: 30px;
+}
+
+#jumbo-content-portfolio {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background-color: whitesmoke;
+    background-size: contain;
+}
+
+.card-deck {
+    height: 300px;
+    padding: 30px;
+}
+
+.card {
+    border-width: 4px;
+    border-style: dashed;
+}
+
+.card-title {
+    font-family: monospace;
+    font-size: 30px;
+    color: gold;
+    background-color: antiquewhite;
+}
+
+.card-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: navy;
+    background-color: antiquewhite;
+}
+
+#traffic {
+    background-image: url(traffic.jpg);
+    background-size: cover;
+}
+
+#typewryt {
+    background-image: url(typewryt.jpg);
+    background-size: cover;
+}
+
+#voteapp {
+    background-image: url(voteapp.jpg);
+    background-size: cover;
+}
+
+#travelsorter {
+    background-image: url(travelsorter.png);
+    background-size: cover;
+}
+
+#arcade {
+    background-image: url(arcade.png);
+    background-size: cover;
+}
+
+#webscrape {
+    background-image: url(webscrape.png);
+    background-size: cover;
+}
+
+.card-body {
+    position: relative;
+}
+
+#github-icon {
+    position: absolute;
+    bottom: 10px;
+    right:45%;
+    left:45%;
+}
+
+#contact {
+    background-image: url(contactme.jpg);
+    background-size: cover;
+    height: 450px;
+    position: relative;
+}
+
+#contact-icon-1 {
+    position: absolute;
+    bottom: 30px;
+    right:50%;
+    left:50%;
+}
+
+#contact-icon-2 {
+    position: absolute;
+    bottom: 30px;
+    right:40%;
+    left:60%;
+}
+
+#contact-icon-3 {
+    position: absolute;
+    bottom: 30px;
+    right:60%;
+    left:40%;
+}
+
+#contact-icon-4 {
+    position: absolute;
+    bottom: 30px;
+    right:70%;
+    left:30%;
+}
+
+#contact-icon-5 {
+    position: absolute;
+    bottom: 30px;
+    right:30%;
+    left:70%;
+}
